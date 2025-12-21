@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object-oriented programming</title>
+</head>
+<body>
+  <p>
+    <b>Code examples from object-oriented programming languages.</b>
+  </p>
+  <p>
+    C++ from Stroustrup (2014):
+  </p>
+<pre><code>
+class Date {
+public:
+    Date(int yy, int mm, int dd)
+      : y{yy}, m{mm}, d{dd} {}
+
+    void add_day(int n) {
+        // ...
+    }
+
+    int month() { return m; }
+
+private:
+    int y, m, d;
+};
+</code></pre>
+</body>
+</html>
